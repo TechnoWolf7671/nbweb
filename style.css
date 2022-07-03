@@ -1,0 +1,179 @@
+html, body {
+  height: inherit;
+  width: inherit;
+  background-color: black;
+}
+#container {
+  height: inherit;
+  width: inherit;
+}
+#frontpage {
+  text-align: center;
+  font-family: Candara;
+}
+#frontpage .FrontPageTitle {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #00b3ff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 190px;
+  cursor: default;
+}
+#frontpage .subtitle {
+  color: white;
+  font-size: 60px;
+  cursor: default;
+}
+#Download {
+  font-family: Candara;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  cursor:pointer;
+}
+#Replit {
+  font-family: Candara;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  cursor:pointer;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 100;
+  background-color: rgba(64, 64, 64, 0.6);
+  overflow-x: hidden;
+  transition: 1s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+#discord {
+  background-image: url("nukerbot.ico");
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-basis: 40%;
+  padding-left: 60px;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  font-family: Candara;
+}
+#electro {
+  background-image: url("electro.gif");
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-basis: 40%;
+  padding-left: 60px;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  font-family: Candara;
+}
+#info {
+  background-image: url("info.ico");
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-basis: 40%;
+  padding-left: 60px;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  font-family: Candara;
+}
+#home {
+  background-image: url("home.ico");
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-basis: 40%;
+  padding-left: 60px;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  font-family: Candara;
+}
+#youtubebutton {
+  font-family: Candara;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  cursor:pointer;
+}
+#discordbutton {
+  font-family: Candara;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  cursor:pointer;
+}
+#container .openmenu {
+  font-size:45px;
+  cursor:pointer;
+  color:white;
+  float: right;
+  text-align: top;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
